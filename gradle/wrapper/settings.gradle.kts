@@ -1,0 +1,16 @@
+pluginManagement{
+存储库{
+谷歌()
+MavenCentral()
+gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement{
+repositoryMode.set(RepositoryMode.fail_ON_PROJECT_REPOS)
+存储库{
+谷歌()
+MavenCentral()
+    }
+}
+rootProject.name="BtAsciiSender"
+包括("：应用程序")
